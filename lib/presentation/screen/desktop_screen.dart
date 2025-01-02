@@ -1,7 +1,6 @@
 import 'package:dock/core/assets_constants.dart';
-import 'package:dock/presentation/screen/mac_os_dock.dart';
+import 'package:dock/presentation/screen/dock.dart';
 import 'package:flutter/material.dart';
-
 
 class DesktopScreen extends StatelessWidget {
   const DesktopScreen({
@@ -17,7 +16,7 @@ class DesktopScreen extends StatelessWidget {
           fit: BoxFit.cover,
         ),
       ),
-      child: MacOSDock(),
+      child: Dock(),
     );
   }
 }

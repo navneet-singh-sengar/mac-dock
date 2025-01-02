@@ -2,14 +2,14 @@ import 'package:dock/model/dock_item.dart';
 import 'package:dock/presentation/widgets/dock_icon.dart';
 import 'package:flutter/material.dart';
 
-class MacOSDock extends StatefulWidget {
-  const MacOSDock({super.key});
+class Dock extends StatefulWidget {
+  const Dock({super.key});
 
   @override
-  State<MacOSDock> createState() => _MacOSDockState();
+  State<Dock> createState() => _DockState();
 }
 
-class _MacOSDockState extends State<MacOSDock> with TickerProviderStateMixin {
+class _DockState extends State<Dock> with TickerProviderStateMixin {
   final List<DockItem> dockItems = <DockItem>[
     const DockItem(logo: 'assets/icons/1.png'),
     const DockItem(logo: 'assets/icons/2.png'),
